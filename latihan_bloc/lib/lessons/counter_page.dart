@@ -29,6 +29,8 @@ class CounterPage extends StatelessWidget {
                       fontSize: 50,
                     ),
                   ),
+                  Text("Current : ${myCounter.current}"),
+                  Text("Next : ${myCounter.next}"),
                 ],
               );
             },
